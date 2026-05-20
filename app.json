@@ -1,0 +1,102 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.schueco",
+  "version": "0.0.2",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "platformLocalRequiredFeatures": [
+    "matter"
+  ],
+  "name": {
+    "en": "Schüco"
+  },
+  "description": {
+    "en": "System solutions for windows, doors and façades"
+  },
+  "brandColor": "#262626",
+  "category": [
+    "security"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Schüco International KG",
+    "email": "abe.haverkamp+schueco@homey.app"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Abe Haverkamp (developer)"
+      },
+      {
+        "name": "Bas van der Ploeg (icons)"
+      }
+    ]
+  },
+  "source": "https://github.com/Doekse/schueco-homey",
+  "bugs": {
+    "url": "https://github.com/Doekse/schueco-homey/issues"
+  },
+  "homeyCommunityTopicId": 155110,
+  "support": "mailto:abe.haverkamp+schueco@homey.app",
+  "drivers": [
+    {
+      "name": {
+        "en": "Funksensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "measure_battery",
+        "alarm_contact"
+      ],
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA"
+        ]
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/funksensor/assets/images/small.png",
+        "large": "/drivers/funksensor/assets/images/large.png",
+        "xlarge": "/drivers/funksensor/assets/images/xlarge.png"
+      },
+      "matter": {
+        "vendorId": 5580,
+        "productId": 1,
+        "learnmode": {
+          "image": "/drivers/funksensor/assets/pair.svg",
+          "instruction": {
+            "en": "The device will automatically start Matter pairing mode when first powered on, if that isn't the case you can reset the device with the following steps.\n\nPress the button inside of the Funksensor for approx. 10 seconds until the signal tone sounds.\n\nRelease the button for at least 1 second.\n\nPress the button for approx. 3 seconds until the signal tone sounds.",
+            "nl": "Het apparaat start automatisch de Matter-koppelmodus wanneer het voor het eerst wordt ingeschakeld. Als dat niet het geval is, kun je het apparaat resetten met de volgende stappen.\n\nDruk ongeveer 10 seconden op de knop in de Funksensor totdat de signaaltoon klinkt.\n\nLaat de knop minimaal 1 seconde los.\n\nDruk vervolgens ongeveer 3 seconden op de knop totdat de signaaltoon klinkt.",
+            "de": "Das Geraet startet beim ersten Einschalten automatisch den Matter-Kopplungsmodus. Falls dies nicht der Fall ist, koennen Sie das Geraet mit den folgenden Schritten zuruecksetzen.\n\nDruecken Sie die Taste im Funksensor etwa 10 Sekunden lang, bis der Signalton zu hoeren ist.\n\nLassen Sie die Taste mindestens 1 Sekunde los.\n\nDruecken Sie die Taste anschliessend etwa 3 Sekunden lang, bis der Signalton zu hoeren ist.",
+            "fr": "L'appareil demarre automatiquement le mode d'appairage Matter lors de la premiere mise sous tension. Si ce n'est pas le cas, vous pouvez reinitialiser l'appareil en suivant les etapes ci-dessous.\n\nAppuyez sur le bouton a l'interieur du Funksensor pendant environ 10 secondes jusqu'a entendre le signal sonore.\n\nRelachez le bouton pendant au moins 1 seconde.\n\nAppuyez ensuite sur le bouton pendant environ 3 secondes jusqu'a entendre le signal sonore.",
+            "it": "Il dispositivo avvia automaticamente la modalita di associazione Matter alla prima accensione. Se cio non accade, puoi reimpostare il dispositivo seguendo questi passaggi.\n\nPremi il pulsante all'interno del Funksensor per circa 10 secondi finche non viene emesso il segnale acustico.\n\nRilascia il pulsante per almeno 1 secondo.\n\nPremi di nuovo il pulsante per circa 3 secondi finche non viene emesso il segnale acustico.",
+            "sv": "Enheten startar automatiskt Matter-parningslaege nar den slas pa forsta gangen. Om det inte sker kan du aterstalla enheten med foljande steg.\n\nTryck pa knappen inuti Funksensor i cirka 10 sekunder tills en signalton hors.\n\nSlapp knappen i minst 1 sekund.\n\nTryck sedan pa knappen i cirka 3 sekunder tills en signalton hors.",
+            "no": "Enheten starter automatisk Matter-paringsmodus nar den slas pa forste gang. Hvis det ikke skjer, kan du tilbakestille enheten med folgende trinn.\n\nTrykk pa knappen inni Funksensor i ca. 10 sekunder til signaltonen hores.\n\nSlipp knappen i minst 1 sekund.\n\nTrykk deretter pa knappen i ca. 3 sekunder til signaltonen hores.",
+            "es": "El dispositivo iniciara automaticamente el modo de emparejamiento Matter cuando se encienda por primera vez. Si no es asi, puedes restablecer el dispositivo con los siguientes pasos.\n\nPulsa el boton dentro del Funksensor durante aprox. 10 segundos hasta que suene el tono de senal.\n\nSuelta el boton durante al menos 1 segundo.\n\nPulsa de nuevo el boton durante aprox. 3 segundos hasta que suene el tono de senal.",
+            "da": "Enheden starter automatisk Matter-parringstilstand, nar den taendes forste gang. Hvis det ikke sker, kan du nulstille enheden med folgende trin.\n\nTryk pa knappen inde i Funksensor i ca. 10 sekunder, indtil signaltonen lyder.\n\nSlip knappen i mindst 1 sekund.\n\nTryk derefter pa knappen i ca. 3 sekunder, indtil signaltonen lyder.",
+            "ru": "Ustroystvo avtomaticheski zapuskaet rezhim sopryazheniya Matter pri pervom vklyuchenii. Esli etogo ne proizoshlo, mozhno sbrosit ustroystvo sleduyushchimi shagami.\n\nNazhmayte knopku vnutri Funksensor primerno 10 sekund, poka ne prozvuchit signalnyy ton.\n\nOtpustite knopku kak minimum na 1 sekundu.\n\nSnova nazhmite knopku primerno na 3 sekundy, poka ne prozvuchit signalnyy ton.",
+            "pl": "Urzadzenie automatycznie uruchomi tryb parowania Matter przy pierwszym wlaczeniu. Jesli tak sie nie stanie, mozesz zresetowac urzadzenie, wykonujac ponizsze kroki.\n\nNacisnij przycisk wewnatrz Funksensor na okolo 10 sekund, az zabrzmi sygnal dzwiekowy.\n\nZwolnij przycisk na co najmniej 1 sekunde.\n\nNastepnie nacisnij przycisk ponownie na okolo 3 sekundy, az zabrzmi sygnal dzwiekowy.",
+            "ko": "기기가 처음 전원이 켜질 때 Matter 페어링 모드가 자동으로 시작됩니다. 그렇지 않은 경우 아래 단계로 기기를 재설정하세요.\n\n신호음이 들릴 때까지 Funksensor 내부의 버튼을 약 10초 동안 누르세요.\n\n버튼을 최소 1초 동안 놓으세요.\n\n그다음 신호음이 들릴 때까지 버튼을 약 3초 동안 누르세요.",
+            "ar": "سيبدا الجهاز وضع الاقتران Matter تلقائيا عند تشغيله لاول مرة. اذا لم يحدث ذلك، يمكنك اعادة ضبط الجهاز باتباع الخطوات التالية.\n\nاضغط الزر داخل Funksensor لمدة تقارب 10 ثوان حتى تسمع نغمة الاشارة.\n\nاترك الزر لمدة ثانية واحدة على الاقل.\n\nثم اضغط الزر لمدة تقارب 3 ثوان حتى تسمع نغمة الاشارة."
+          }
+        }
+      },
+      "id": "funksensor"
+    }
+  ]
+}
