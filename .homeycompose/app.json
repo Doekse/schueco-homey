@@ -1,0 +1,49 @@
+{
+  "id": "com.schueco",
+  "version": "0.0.2",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "platformLocalRequiredFeatures": [
+    "matter"
+  ],
+  "name": {
+    "en": "Schüco"
+  },
+  "description": {
+    "en": "System solutions for windows, doors and façades"
+  },
+  "brandColor": "#262626",
+  "category": [
+    "security"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Schüco International KG",
+    "email": "abe.haverkamp+schueco@homey.app"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Abe Haverkamp (developer)"
+      },
+      {
+        "name": "Bas van der Ploeg (icons)"
+      }
+    ]
+  },
+  "source": "https://github.com/Doekse/schueco-homey",
+  "bugs": {
+    "url": "https://github.com/Doekse/schueco-homey/issues"
+  },
+  "homeyCommunityTopicId": 155110,
+  "support": "mailto:abe.haverkamp+schueco@homey.app"
+}

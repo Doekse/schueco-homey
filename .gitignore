@@ -7,7 +7,6 @@ yarn-error.log*
 # Homey specific
 .env.json
 .homeybuild/
-.homeycompose/
 
 # Build outputs
 dist/
