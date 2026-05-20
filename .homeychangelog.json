@@ -4,5 +4,8 @@
   },
   "0.0.2": {
     "en": "Added links to Homey Community forum topic and source code repository"
+  },
+  "1.0.0": {
+    "en": "Initial stable release"
   }
 }
